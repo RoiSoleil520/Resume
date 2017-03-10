@@ -337,7 +337,9 @@ body {
     margin-left: 43px;
 }
 .photo img{
-    border-radius:50%;
+    -moz-border-radius: 50%; /* Firefox */
+    -webkit-border-radius: 50%; /* Safari 和 Chrome */
+    border-radius: 50%; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
 }
 .name {
     font-family: "STFangsong", "sans-serif";
