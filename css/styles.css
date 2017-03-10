@@ -331,12 +331,20 @@ body {
     font-family: "Microsoft Yahei", "sans-serif";
     line-height: 1.8em;
 }
-
+.photo{
+    height: 50%;
+    width: 50%;
+    margin-left: 43px;
+}
+.photo img{
+    border-radius:50%;
+}
 .name {
     font-family: "STFangsong", "sans-serif";
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     margin-bottom: 20px;
+    margin-left: 80px;
 }
 
 .target-job {
