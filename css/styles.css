@@ -334,7 +334,7 @@ body {
 .photo{
     height: 50%;
     width: 50%;
-    margin-left: 43px;
+    margin:0 auto;
 }
 .photo img{
     -moz-border-radius: 50%; /* Firefox */
@@ -346,7 +346,7 @@ body {
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 20px;
-    margin-left: 80px;
+    text-align: center;
 }
 
 .target-job {
